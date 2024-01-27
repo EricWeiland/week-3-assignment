@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+</head>
+<body class="container bg-secondary">
+<h1 class="text-center m-5 fs-1">Contact Me</h1>
+
+<nav class="navbar navbar-expand-lg>
+    <div class="container-fluid">
+      <a class="navbar-brand border p-2" href="index.html">Eric Weiland</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active border" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link border" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle border" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Skills
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="http://www.ericweilandphotography.com">Photography</a></li>
+              <li><a class="dropdown-item" href="#">Coding</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Other</a></li>
+            </ul>
+          </li>
+         
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+<img src="Images/Eric-Weiland_pt4.jpg" class="container" alt="A photo of me by Devil's Head"></img>
+    
+<form class="row gy-2 gx-3 align-items-center">
+    <div class="col-sm-4">
+      <label class="col-sm-4 visually-hidden" for="autoSizingInput">Name</label>
+      <input type="text" class="form-control" id="autoSizingInput" placeholder="Jane Doe">
+    </div>
+
+    <div class="col-sm-4">
+          <input type="email" class="form-control" id="colFormLabel" placeholder="Email Address">
+    </div>
+
+    <div class="col-sm-4">
+      <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+      <select class="form-select" id="autoSizingSelect">
+        <option selected>Why you're reaching out...</option>
+        <option value="Photography">Photography</option>
+        <option value="Coding">Coding</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary align-items-center">Submit</button>
+    </div>
+  </form>
+
+   
+    <footer class="container text-center m-3 fs-5">Eric Weiland</footer> 
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+
+</body>
+</html>
